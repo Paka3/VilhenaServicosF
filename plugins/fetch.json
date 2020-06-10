@@ -1,0 +1,50 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-network-information"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "onesignal-cordova-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "onesignal-cordova-plugin@^2.7.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-wkwebview-engine": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-wkwebview-engine@^1.2.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-wkwebview-file-xhr": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-wkwebview-file-xhr"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-wkwebviewxhrfix": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/TheMattRay/cordova-plugin-wkwebviewxhrfix"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

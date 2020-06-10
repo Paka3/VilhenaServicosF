@@ -1,0 +1,5 @@
+{
+    "SystemConfiguration.framework": 2,
+    "CoreTelephony.framework": 1,
+    "WebKit.framework": 2
+}
