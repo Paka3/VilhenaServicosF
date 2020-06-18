@@ -164,7 +164,7 @@ font-family:'Arial Black', Gadget, sans-serif;
   max-height: 80px;
 }
 
-.circle {
+a.circle {
   position: relative;
   display: block;
   /*margin: 2em 0;*/
@@ -177,7 +177,7 @@ font-family:'Arial Black', Gadget, sans-serif;
   
 }
 
-.circle:after {
+a.circle:after {
   display: block;
   padding-bottom: 100%;
   width: 100%;
@@ -189,7 +189,7 @@ font-family:'Arial Black', Gadget, sans-serif;
   content: "";
 }
 
-.circle__inner {
+a.circle__inner {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -198,19 +198,19 @@ font-family:'Arial Black', Gadget, sans-serif;
   height: 100%;
 }
 
-.circle__wrapper {
+a.circle__wrapper {
   display: table;
   width: 100%;
   height: 100%;
 }
 
-.circle__content {
+a.circle__content {
   display: table-cell;
   vertical-align: middle;
 }
 
 @media (min-width: 280px) {
-  .circle__content {
+  a.circle__content {
     font-size: 2em;
   }
 }

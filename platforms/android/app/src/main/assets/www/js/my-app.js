@@ -113,12 +113,14 @@ var app = new Framework7({
 
                     //REDIRECIONAR PARA HOME EM 5 SEGUNDOS
                     setTimeout(function () {
-						
-						
+						var login= localStorage.getItem("login");
+						if (login==null) {
+						app.views.main.router.navigate('/index/');
+						}else{
 						
 						
 						app.views.main.router.navigate('/destino/');
-						
+						}
 						var networkState = navigator.connection.type;
 
 						// Verifica disponibilidade do anunciate logado
@@ -1382,6 +1384,7 @@ requestAnimationFrame(loop);
 													localStorage.setItem("DataNascimento", dataNascimento);
 													
 													app.views.main.router.navigate('/destino/');
+													
                                                 });
                            
                                            
